@@ -23,7 +23,9 @@ Your goal is to experience a real-world Cross-Site Scripting (XSS) workflow from
 ```bash
 git clone https://github.com/your-org/hello-xss-lab.git
 cd hello-xss-lab
+python3 -m venv myvenv
+source myvenv/bin/activate
 pip install -r requirements.txt     # installs Flask
-python hello_xss.py
+python main.py
 
 
